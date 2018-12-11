@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
   s.subspec 'Socket.IO-Client-Swift' do |socket|
-      socket.dependency   'Socket.IO-Client-Swift'
+      socket.dependency   'Socket.IO-Client-Swift', '12.1.3'
   end
 
   #s.framework     = "LaravelEchoIOS"
